@@ -1,5 +1,34 @@
 # GenerativeAi
-Generative AI projects
-Resume Data Extraction with LangChain & Ollama
+AI-Powered Resume Parser Web App — Built with Streamlit + LangChain + Ollama
 
-Built an AI-powered application using LangChain and ChatOllama to automatically extract structured data from unstructured resumes (PDFs). The system processes resume content to identify and extract key fields like name, email, university, degree, company, and job title, outputting the information in JSON format. This project leverages ChatOllama's capabilities to create intelligent chat-based models for document processing, streamlining resume data extraction for recruitment and HR automation.
+I just completed a personal project that extracts structured information from PDF resumes using AI. No more manual scanning — just upload a file and get clean, structured JSON data in seconds! 💡
+
+ What it does:
+Upload a PDF resume
+Extract key fields like:
+
+First Name
+
+Last Name
+
+Email
+
+University
+
+Degree
+
+Company
+
+Job Title
+ Display results in a neat JSON format
+
+ Tech Stack:
+Streamlit for the interactive web app
+
+LangChain for prompt chaining
+
+Ollama (Gemma model) for local LLM inference
+
+PyPDFLoader to handle resume text extraction
+
+Pydantic for JSON data validation
